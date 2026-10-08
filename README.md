@@ -64,3 +64,7 @@ Per eseguire da una cartella diversa, passare a `--project` il percorso assoluto
 L'estrazione usa il pattern presente in [Program.cs](Program.cs): non è un parser completo di tutti i formati email possibili e non esegue deduplicazione o normalizzazione.
 
 I risultati possono contenere dati personali e vanno conservati localmente. I file `emails_*.txt` sono esclusi dal controllo versione. Vedere [PUBLICATION.md](PUBLICATION.md) per le indicazioni sulla pubblicazione del sorgente.
+
+## Flussi operativi e automazioni
+
+Vedere [FLUSSI.md](FLUSSI.md) per i percorsi dall'azione iniziale al risultato, le operazioni interne, gli errori, gli effetti parziali e le automazioni attive o disattivate.
